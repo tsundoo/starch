@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/tsundoo/starch.git/static/css/main.811cfe78.css",
-    "main.js": "/tsundoo/starch.git/static/js/main.8752d688.js",
-    "static/media/video.mp4": "/tsundoo/starch.git/static/media/video.a1b6c6dc67dfa2f99343.mp4",
-    "static/media/chef.png": "/tsundoo/starch.git/static/media/chef.400b6a733d425b0d2455.png",
-    "static/media/clit.png": "/tsundoo/starch.git/static/media/clit.cd5756fe41cdbc787d57.png",
-    "static/media/cliente-sac.png": "/tsundoo/starch.git/static/media/cliente-sac.a1c7ddc90f35c5fa8cd7.png",
-    "static/media/plats.png": "/tsundoo/starch.git/static/media/plats.94a529b5c62715231356.png",
-    "static/media/food5.jpeg": "/tsundoo/starch.git/static/media/food5.b797624cd7b3342d5477.jpeg",
-    "static/media/food4.jpeg": "/tsundoo/starch.git/static/media/food4.c5695779d860b4ff39c1.jpeg",
-    "static/media/food2.jpeg": "/tsundoo/starch.git/static/media/food2.313d1449f66fadd7c572.jpeg",
-    "static/media/cap.png": "/tsundoo/starch.git/static/media/cap.54b1870dfc9b5415a3cc.png",
-    "static/media/capt.png": "/tsundoo/starch.git/static/media/capt.67f5e43bf6b45cbe8e3f.png",
-    "static/media/menu.jpg": "/tsundoo/starch.git/static/media/menu.5d3d9934857fd66830d1.jpg",
-    "static/media/food1.jpeg": "/tsundoo/starch.git/static/media/food1.4d461e77e9f96ed7b99c.jpeg",
-    "static/media/food3.jpeg": "/tsundoo/starch.git/static/media/food3.ba3396cec196226cf210.jpeg",
-    "static/media/logo.jpg": "/tsundoo/starch.git/static/media/logo.cabab6ef079591881474.jpg",
-    "index.html": "/tsundoo/starch.git/index.html",
-    "static/media/spoon.svg": "/tsundoo/starch.git/static/media/spoon.e7ad78a0cb2938e5640b307135a9719c.svg",
-    "main.811cfe78.css.map": "/tsundoo/starch.git/static/css/main.811cfe78.css.map",
-    "main.8752d688.js.map": "/tsundoo/starch.git/static/js/main.8752d688.js.map"
+    "main.css": "/starch/static/css/main.811cfe78.css",
+    "main.js": "/starch/static/js/main.951b502c.js",
+    "static/media/video.mp4": "/starch/static/media/video.a1b6c6dc67dfa2f99343.mp4",
+    "static/media/chef.png": "/starch/static/media/chef.400b6a733d425b0d2455.png",
+    "static/media/clit.png": "/starch/static/media/clit.cd5756fe41cdbc787d57.png",
+    "static/media/cliente-sac.png": "/starch/static/media/cliente-sac.a1c7ddc90f35c5fa8cd7.png",
+    "static/media/plats.png": "/starch/static/media/plats.94a529b5c62715231356.png",
+    "static/media/food5.jpeg": "/starch/static/media/food5.b797624cd7b3342d5477.jpeg",
+    "static/media/food4.jpeg": "/starch/static/media/food4.c5695779d860b4ff39c1.jpeg",
+    "static/media/food2.jpeg": "/starch/static/media/food2.313d1449f66fadd7c572.jpeg",
+    "static/media/cap.png": "/starch/static/media/cap.54b1870dfc9b5415a3cc.png",
+    "static/media/capt.png": "/starch/static/media/capt.67f5e43bf6b45cbe8e3f.png",
+    "static/media/menu.jpg": "/starch/static/media/menu.5d3d9934857fd66830d1.jpg",
+    "static/media/food1.jpeg": "/starch/static/media/food1.4d461e77e9f96ed7b99c.jpeg",
+    "static/media/food3.jpeg": "/starch/static/media/food3.ba3396cec196226cf210.jpeg",
+    "static/media/logo.jpg": "/starch/static/media/logo.cabab6ef079591881474.jpg",
+    "index.html": "/starch/index.html",
+    "static/media/spoon.svg": "/starch/static/media/spoon.e7ad78a0cb2938e5640b307135a9719c.svg",
+    "main.811cfe78.css.map": "/starch/static/css/main.811cfe78.css.map",
+    "main.951b502c.js.map": "/starch/static/js/main.951b502c.js.map"
   },
   "entrypoints": [
     "static/css/main.811cfe78.css",
-    "static/js/main.8752d688.js"
+    "static/js/main.951b502c.js"
   ]
 }
