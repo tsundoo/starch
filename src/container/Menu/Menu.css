@@ -1,0 +1,54 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.app__menu {
+    background: var(--color-black);
+    height: auto;
+    margin-bottom: 2rem;
+    max-width: 80vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    min-height: 100vh;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.app__menu-title {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.app__menu-title h2 {
+    color: var(--color-golden);
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+}
+
+.app__menu-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__menu-content img {
+    width: 50%;
+    height: 27%;
+}
+
+/* smartphone */
+@media screen and (max-width: 767px) {
+    .app__menu-title h2 {
+        font-size: 23px;
+    }
+}

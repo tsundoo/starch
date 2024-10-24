@@ -1,0 +1,156 @@
+.app__header {
+    width: 100%; 
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; /* Changer de column à row */
+}
+
+.app__header-h1 {
+    text-transform: uppercase;
+    font-size: 45px;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.app__header-logo {
+    border-radius: 50%;
+    align-items: center;
+}
+
+.app__header p {
+    margin-top: 1rem;
+    width: 60vh;
+    line-height: 2rem;
+    letter-spacing: 2px;
+}
+
+.app__wrapper_img img {
+
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    width: 40vh;
+    height: 40vh;
+    border-radius:50%;
+
+}
+
+
+
+/* grand écrans */
+@media screen and (min-width: 1920px){
+    .app__header {
+        height: 100%; 
+        display: flex;
+        margin-top: 2rem;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    
+    .app__header-h1 {
+        text-transform: uppercase;
+        font-size: 45px;
+        padding-top: 1rem;
+        text-align: center;
+    }
+    
+    .app__header-logo {
+        border-radius: 50%;
+        width: 60%;
+        align-items: center;
+    }
+    
+    .app__header p {
+        margin-top: 5rem;
+        font-size: 2rem;
+        width: 60vh;
+        line-height: 2rem;
+        letter-spacing: 2px;
+        margin-bottom: 10rem;
+    }
+
+    .app__wrapper_img img {
+        width: 35vh;
+        height: 35vh;
+        position: absolute;
+        top: 80%;
+        left: 60%;
+        
+    }
+}
+
+
+
+/* smartphone */
+@media screen and (max-width: 767px) {
+    .app__header-logo {
+        display: none;
+    }
+    .app__header-h1 {
+        font-size: 25px;
+    }
+    .app__header p {
+        width: 90%;
+        line-height: 1.5rem;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .app__wrapper_img img {
+        display: none;
+    }
+}
+
+/* tablette portrait */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .app__header {
+        margin: 0 auto;
+        padding: 0 1rem;
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .app__header-logo {
+        margin-left: 4rem;
+        width: 60vh; /* Réduire la taille du logo */
+        border-radius: 50%;
+    }
+    .app__header-h1 {
+        font-size: 28px; /* Réduire la taille de la police */
+        text-align: center;
+    }
+    .app__header p {
+        width: 80%;
+        line-height: 1.5rem;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .app__wrapper_img img {
+        width: 20vh;
+        height: 20vh;
+        position: relative;
+        top: 0;
+        left: 0;
+        margin: 0 auto;
+    }
+}
+
+
+/* desktop */
+@media screen and (min-width: 1024px) and (max-width: 1919px) {
+    .app__header-logo {
+        width: 70vh;
+        margin-left: 10rem;
+        margin-bottom: 3rem;
+    }
+    .app__wrapper_img img {
+        margin-top: 8rem;
+    }
+    #home {
+        margin-bottom: 10rem;
+    }
+
+}
